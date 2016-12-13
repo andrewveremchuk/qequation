@@ -15,9 +15,9 @@ function quad_equation(discr) {
 }    
 
     
-    var a = Number(prompt('For solving square equation input a'));
-    var b = Number(prompt('For solving square equation input b'));
-    var c = Number(prompt('For solving square equation input c'));
+    var a = Number(prompt('For solving square equation a*x^2 + b*x + c = 0 input a'));
+    var b = Number(prompt('For solving square equation a*x^2 + b*x + c = 0 input b'));
+    var c = Number(prompt('For solving square equation a*x^2 + b*x + c = 0 input c'));
     var discr=b*b-4*a*c;
     
     var result = quad_equation(discr);
